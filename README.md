@@ -28,6 +28,7 @@ npm start
 或者，使用Docker:
 
 ```bash
+sudo apt install docker docker-compose
 docker-compose up --build
 ```
 

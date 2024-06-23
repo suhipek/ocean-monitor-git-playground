@@ -7,7 +7,7 @@ class User(db.Model):
     username = db.Column(db.String(100), unique=True, nullable=False)
     password_hash = db.Column(db.String(2048), nullable=False)
     role = db.Column(db.String(20), nullable=False)
-    session_id = db.Column(db.String(128), nullable=True)
+    session_id = db.Column(db.String(100), nullable=True)
 
 class HydroData(db.Model):
     id = db.Column(db.Integer, primary_key=True)

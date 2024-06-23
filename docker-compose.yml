@@ -36,7 +36,7 @@ services:
   db:
     image: mysql:8.0
     ports:
-      - "33306:3306"
+      - "23306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: Tt102938!
       MYSQL_DATABASE: ocean_monitor
